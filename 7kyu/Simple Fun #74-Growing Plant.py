@@ -53,15 +53,26 @@
 
 #     [output] an integer
 
-#     The number of days that it will take for the plant to reach/pass desiredHeight (including the last day in the total count).
+#     The number of days that it will take for t
+def growing_plant(upSpeed, downSpeed, desiredHeight):
+    num = 0
+    output = 0
+    while num <= desiredHeight:
+        num += upSpeed
+        output += 1
+        if num < desiredHeight:
+            num -= downSpeed
+        else:
+            return output
+
+# or this solution also works
+
 
 def growing_plant(upSpeed, downSpeed, desiredHeight):
-    day = 0
-    h = 0
-    while h <= desiredHeight:
-        h += upSpeed
-        day += 1
-        if h < desiredHeight:
-            h -= downSpeed
-        else:
-            return day
+    num = upSpeed  # make num == upSpeed, for the first day
+    output = 1  # since num is equal to upSpeed then output should equal 1 to reflect the first day
+    while num < desiredHeight:  # loop until you get the desired number
+        # add upSpeed to num, but before that substract upSpeed by downSpeed
+        num += (upSpeed - downSpeed)
+        output += 1  # this is the amount of days it takes for num to equal desiredHeight
+    return output
