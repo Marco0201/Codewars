@@ -4,5 +4,5 @@
 
 # Return true if the array contains the value, false if not.
 
-def check(seq, elem):
-    return elem in seq
+def check(seq, element):
+    return element in seq
