@@ -2,11 +2,11 @@
 
 # Determine if any of the numbers in the array is the index of the "odd" word. If so, return true, otherwise false.
 
-def odd_ball(arr):
+def odd_ball(array):
     l = 0
-    while l <= len(arr) - 1:
-        if arr[l] != 'odd':
+    while l <= len(array) - 1:
+        if array[l] != 'odd':
             l += 1
         else:
             break
-    return l in arr
+    return l in array
