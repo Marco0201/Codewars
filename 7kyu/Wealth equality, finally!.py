@@ -28,13 +28,13 @@
 #     Handling of floating point error will not be tested
 
 def redistribute_wealth(wealth):
-    total = 0
+    tot = 0
     if len(wealth) == 1:
         pass
     elif len(wealth) >= 2 and wealth[0] == wealth[1]:
-            pass
+        pass
     else:
         for i in wealth:
-            total += i
+            tot += i
         for j in range(len(wealth)):
-            wealth[j] = total / len(wealth)
+            wealth[j] = tot / len(wealth)
