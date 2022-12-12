@@ -9,11 +9,10 @@
 # Note: The parameter is optional. So you have to give it a default value.
 
 def arr(n=0):
-    arry = []
+    array = []
     if (n > 0) or (n != None):
         for i in range(n):
-            arry.append(i)
-        return arry
-    else: 
+            array.append(i)
+        return array
+    else:
         return []
-        
