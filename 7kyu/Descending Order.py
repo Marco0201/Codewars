@@ -10,5 +10,5 @@
 def descending_order(num):
     numb = list(str(num))
     numb.sort()
-    new = ''.join(number)
+    new = ''.join(numb)
     return int(new[::-1])
