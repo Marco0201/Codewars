@@ -8,7 +8,7 @@
 # Input: 123456789 Output: 987654321
 
 def descending_order(num):
-    number = list(str(num))
-    number.sort()
+    numb = list(str(num))
+    numb.sort()
     new = ''.join(number)
     return int(new[::-1])
