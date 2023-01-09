@@ -3,7 +3,7 @@
 # About
 A repository filled with codewars challenges (katas). I push solutions every week.
 # Techs used
-![python (2)](https://user-images.githubusercontent.com/94779649/192928695-552559b3-a59e-4620-8e3e-cebb7404f515.png)
+Python
 # Optimizations
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability.
 # Lessons Learned
