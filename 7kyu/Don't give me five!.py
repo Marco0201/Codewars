@@ -17,10 +17,10 @@
 # I have also created other katas. Take a look if you enjoyed this kata!
 
 def dont_give_me_five(start, end):
-    a = []
+    num = []
     for i in range(start, end + 1):
         if '5' in str(i):
             pass
         else:
-            a.append(i)
-    return len(a)
+            num.append(i)
+    return len(num)
