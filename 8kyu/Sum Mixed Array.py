@@ -3,9 +3,9 @@
 # Return your answer as a number.
 def sum_mix(arr):
     total = 0
-    for i in arr:
-        if i != type(0):
-            total += int(i)
+    for a in arr:
+        if a != type(0):
+            total += int(a)
         else:
-            total += i
+            total += a
     return total
