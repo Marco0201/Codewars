@@ -20,7 +20,7 @@
 
 # If all answers are 'aye' then Fire! if one or more are 'nay' then Shiver me timbers!
 
-# Also, check out the new Pirates!! Kata: https://www.codewars.com/kata/57e2d5f473aa6a476b0000fe
+
 def cannons_ready(gunners):
     word = []
     for i in gunners:
