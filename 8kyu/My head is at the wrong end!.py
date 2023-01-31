@@ -6,6 +6,6 @@
 
 # Simples!
 
-def fix_the_meerkat(arr):
-    arr.reverse()
-    return arr
+def fix_the_meerkat(a):
+    a.reverse()
+    return a
