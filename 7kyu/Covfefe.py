@@ -4,10 +4,10 @@
 
 # For the languages where the string is not immutable (such as ruby), don't modify the given string, otherwise this will break the test cases.
 
-def covfefe(s):
-    if "coverage" in s:
-        new = s.replace("coverage", "covfefe")
+def covfefe(word):
+    if "coverage" in word:
+        new = word.replace("coverage", "covfefe")
     else:
-        new = s + " covfefe"
+        new = word + " covfefe"
 
     return new
