@@ -14,10 +14,10 @@
 
 #     [output] a string
 
-def reverse_letter(string):
+def reverse_letter(st):
     new = []
     alp = 'abcdefghijklmnopqrstuvwxyz'
-    for i in string:
+    for i in st:
         if i in alp:
             new.append(i)
     return ''.join(new)[::-1]
