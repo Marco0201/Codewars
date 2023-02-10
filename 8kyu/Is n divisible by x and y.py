@@ -6,8 +6,8 @@
 # 3) n = 100, x = 5, y = 3 => false because 100 is not divisible by 3
 # 4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
 
-def is_divisible(n, x, y):
-    if (n % x == 0) and (n % y == 0):
+def is_divisible(num, x, y):
+    if (num % x == 0) and (num % y == 0):
         return True
     else:
         return False
