@@ -2,8 +2,8 @@
 
 # For example, for [1, 2, 2] it should return 9 because 12+22+22=91^2 + 2^2 + 2^2 = 912+22+22=9.
 
-def square_sum(num):
+def square_sum(number):
     sum = 0
-    for i in num:
+    for i in number:
         sum += i**2
     return sum
