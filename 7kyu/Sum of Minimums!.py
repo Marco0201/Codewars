@@ -12,8 +12,8 @@
 # Note: You will always be given a non-empty list containing positive values.
 
 # ENJOY CODING :)
-def sum_of_minimums(numbers):
+def sum_of_minimums(num):
     sum = 0
-    for i in numbers:
+    for i in num:
         sum += min(i)
     return sum
