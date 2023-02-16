@@ -15,16 +15,16 @@
 import math
 
 
-def is_square(arr):
+def is_square(array):
     l = 0
     num = 0
-    if not arr:
+    if not array:
         return None
     else:
-        while l <= len(arr) - 1:
-            if math.sqrt(arr[l]) == int(arr[l] ** 0.5):
+        while l <= len(array) - 1:
+            if math.sqrt(array[l]) == int(array[l] ** 0.5):
                 l += 1
                 num += 1
             else:
                 l += 1
-        return num == len(arr)
+        return num == len(array)
