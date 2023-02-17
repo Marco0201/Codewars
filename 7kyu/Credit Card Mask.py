@@ -17,11 +17,11 @@
 # "####################################man!"
 
 # return masked string
-def maskify(cc):
+def maskify(card):
     l = 0
-    listing = list(cc)
-    if len(cc) <= 4:
-        return cc
+    listing = list(card)
+    if len(card) <= 4:
+        return card
     else:
         while l <= len(listing) - 5:
             listing[l] = '#'
