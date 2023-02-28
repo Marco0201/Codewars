@@ -8,6 +8,6 @@
 
 // # If one of the arguments is a number your code must coerce it into being a string.
 
-function joinStrings(string1, string2){
-    return `${string1} ${string2}`
+function joinStrings(str1, str2){
+    return `${str1} ${str2}`
  }
