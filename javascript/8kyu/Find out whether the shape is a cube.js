@@ -12,6 +12,6 @@
 
 // Note: side will be an integer
 
-var cubeChecker = function(volume, side){
-    return (side**3 === volume) && (volume > 0 && side > 0);
+var cubeChecker = function(v, s){
+    return (s**3 === v) && (v > 0 && s > 0);
   };
