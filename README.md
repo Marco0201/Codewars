@@ -3,7 +3,7 @@
 # About
 A repository filled with codewars challenges (katas). I push solutions every week.
 # Techs used
-Python
+Python, Javascript
 # Optimizations
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability.
 # Lessons Learned
