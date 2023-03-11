@@ -7,10 +7,10 @@
 
 // Note: Math.pow and some other Math functions like eval() and ** are disabled.
 
-function numberToPower(number, power){
+function numberToPower(numb, power){
     let num = 1;
     for (let i = 0; i < power; i++) {
-    num *= number;
+    num *= numb;
     
     }
     return num;
