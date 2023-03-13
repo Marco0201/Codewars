@@ -11,3 +11,10 @@ function solution(str){
   }
   return total.join("")
 }
+
+//----------------------------------//
+//Using methods
+
+function solution(str){
+  return str.split('').reverse().join('');  
+}
