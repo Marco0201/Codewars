@@ -21,13 +21,13 @@
 
 function add() {
   let total = 0
-  let i = 1
+  let num = 1
   if (arguments === null) {
     return 0
   } else {
       for(let arr of arguments) {
-        total += (arr / i);
-        i++;
+        total += (arr / num);
+        num++;
     }
         
   }
