@@ -2,13 +2,13 @@
 
 // Note: Empty arrays should return 0.
 
-function findAverage(array) {
+function findAverage(arr) {
     let sum = 0
-    if (array.length !== 0) {
-      for ( let i = 0; i < array.length; i++){
-        sum += array[i]
+    if (arr.length !== 0) {
+      for ( let i = 0; i < arr.length; i++){
+        sum += arr[i]
       }
-      return sum/(array.length)
+      return sum/(arr.length)
     } else {
       return 0
     }
