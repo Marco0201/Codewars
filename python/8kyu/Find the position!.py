@@ -4,8 +4,8 @@
 
 # Ouput: : "Position of alphabet: 1"
 
-def position(alphabet):
+def position(alpha):
     alph = 'abcdefghijklmnopqrstuvwxyz'
     new_alp = list(alph)
-    post = (new_alp.index(alphabet)) + 1
+    post = (new_alp.index(alpha)) + 1
     return f"Position of alphabet: {post}"
