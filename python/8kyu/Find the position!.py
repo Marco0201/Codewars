@@ -5,7 +5,7 @@
 # Ouput: : "Position of alphabet: 1"
 
 def position(alpha):
-    alph = 'abcdefghijklmnopqrstuvwxyz'
-    new_alp = list(alph)
+    alph_list = 'abcdefghijklmnopqrstuvwxyz'
+    new_alp = list(alph_list)
     post = (new_alp.index(alpha)) + 1
     return f"Position of alphabet: {post}"
