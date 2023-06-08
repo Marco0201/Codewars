@@ -1,5 +1,5 @@
-When provided with a letter, return its position in the alphabet.
+// When provided with a letter, return its position in the alphabet.
 
-Input :: "a"
+// Input :: "a"
 
-Ouput :: "Position of alphabet: 1"
+// Ouput :: "Position of alphabet: 1"
