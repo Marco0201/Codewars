@@ -9,9 +9,9 @@
 # Notes
 
 #     You may consider that there will not be any empty arrays/vectors.
-def minimum(arr):
-    return min(arr)
+def minimum(a):
+    return min(a)
 
 
-def maximum(arr):
-    return max(arr)
+def maximum(a):
+    return max(a)
