@@ -21,12 +21,12 @@
 // 20 --> "drink beer"
 // 30 --> "drink whisky"
 
-function peopleWithAgeDrink(o) {
-    if (o < 14) {
+function peopleWithAgeDrink(old) {
+    if (old < 14) {
       return 'drink toddy'
-    } else if (o > 14 && o < 18) {
+    } else if (old >= 14 && old <= 17) {
       return "drink coke"
-    } else if (o > 17 && o < 21) {
+    } else if (old >= 18 && old <= 20) {
       return "drink beer"
     } else {
       return "drink whisky"
