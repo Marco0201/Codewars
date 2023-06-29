@@ -14,12 +14,12 @@
 // sumMul(4, -7)  ==> "INVALID"
 
 function sumMul(n,m){
-    let num = 0
+    let number = 0
     if ( n < 1 || m < 1) {
       return 'INVALID'
     } else {
       for (let i = 0; i < m; i += n) {
-        num += i
+        number += i
       }
-    } return num
+    } return number
   } 
